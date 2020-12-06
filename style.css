@@ -336,4 +336,7 @@ footer h5 {
   .footer-wrapper {
     text-align: center;
   }
+  .form-head h2 {
+    padding-left: 5rem;
+  }
 }
