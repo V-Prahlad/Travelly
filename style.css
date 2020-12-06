@@ -290,12 +290,23 @@ nav ul {
 }
 
 /* Footer */
-.footer-wrapper {
+footer {
   color: white;
-  min-height: 15vh;
   background-color: #131c27;
+}
+
+.footer-wrapper {
+  display: flex;
+  padding: 2rem;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  min-height: 10vh;
+  flex-wrap: wrap;
   text-align: center;
-  padding-top: 5rem;
+}
+footer h5 {
+  flex: 1 1 40rem;
 }
 
 /* Media Query */
@@ -318,5 +329,11 @@ nav ul {
   }
   .moving-cloud-2 {
     z-index: -2;
+  }
+  .form-wrapper {
+    width: 100%;
+  }
+  .footer-wrapper {
+    text-align: center;
   }
 }
