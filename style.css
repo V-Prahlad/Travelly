@@ -81,6 +81,8 @@ button:hover {
 .main-head {
   background-color: #131c27;
   color: white;
+  position: sticky;
+  top: 0rem;
 }
 
 nav {
@@ -92,7 +94,6 @@ nav {
   align-items: center;
   flex-wrap: wrap;
 }
-
 nav ul {
   display: flex;
   flex: 1 1 40rem;
